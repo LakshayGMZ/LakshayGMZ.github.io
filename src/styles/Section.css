@@ -1,0 +1,16 @@
+.sectionContainer {
+    margin-top: 2rem;
+}
+
+.sectionTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sectionTitleEmbedder {
+    height: 50px;
+    width: 10px;
+    background-color: blue;
+    margin-right: 1rem;
+}

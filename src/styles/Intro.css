@@ -1,0 +1,16 @@
+.introContainer {
+    height: 100vh;
+    background-color: var(--color-secondary);
+}
+
+.introTitle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 50%;
+    color: white;
+}
+
+.introTitle h1 {
+    font-size: 4rem;
+}

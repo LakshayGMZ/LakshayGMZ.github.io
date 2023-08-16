@@ -1,0 +1,27 @@
+.toolEntityListContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: ;
+}
+
+.toolEntityContainer {
+    background-color: darkgrey;
+    border-radius: 4px;
+    width: 100px;
+    height: 130px;
+    margin: 5px;
+}
+
+.toolIconContainer {
+    display: flex;
+    font-size: xxx-large;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.toolLabelContainer {
+    text-align: center;
+}
+
+.toolLabelContainer .icon {
+}

@@ -1,0 +1,32 @@
+/* CSS file import section */
+
+@import "GoToTop.css";
+@import "Intro.css";
+@import "ToolEntity.css";
+@import "Footer.css";
+@import "Section.css";
+@import "SocialLinks.css";
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: slategray;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --color-primary: #75C2F6;
+    --color-secondary: #1D5D9B;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+section {
+    margin: auto 1rem;
+}
