@@ -14,6 +14,7 @@ const colorMapping = {
     Proficient: {color: "warning", value: 75},
     Expert: {color: "error", value: 100}
 }
+
 const ToolEntity = (props: ToolInterface) => {
 
     return (
@@ -35,7 +36,12 @@ const ToolEntity = (props: ToolInterface) => {
                 <LinearProgress
                     variant="determinate"
                     value={colorMapping[props.expLevel].value}
-                    color={colorMapping[props.expLevel].color}
+                    color={
+                    colorMapping[props.expLevel].color === "success" ? "success" :
+                        colorMapping[props.expLevel].color === "info" ? "info" :
+                            colorMapping[props.expLevel].color === "error" ? "error" :
+                                colorMapping[props.expLevel].color === "warning" ? "warning" :
+                                    "primary" }
                 />
             </div>
         </div>

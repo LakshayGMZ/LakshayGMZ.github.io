@@ -1,4 +1,4 @@
-import React, {createContext, SetStateAction, useReducer, useState} from "react";
+import React, {createContext} from "react";
 
 export const ThemeContext = createContext("light");
-export const SetThemeContext = createContext(() => {});
+export const SetThemeContext = createContext((e: any) => e);
