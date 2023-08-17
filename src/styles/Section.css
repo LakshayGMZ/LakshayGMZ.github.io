@@ -14,3 +14,9 @@
     background-color: blue;
     margin-right: 1rem;
 }
+
+.sectionLinkContainer {
+    margin-left: 10px;
+    align-items: center;
+}
+

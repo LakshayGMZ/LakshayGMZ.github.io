@@ -5,10 +5,10 @@ import {faGithub, faGoogle, faLinkedin, faStackOverflow} from "@fortawesome/free
 const SocialLinks: FC = () => {
 
     return (
-        <>
+        <div className={"socialLinksContainer"}>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="javascript:void(0)">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -52,7 +52,7 @@ const SocialLinks: FC = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:void(0)">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -60,7 +60,7 @@ const SocialLinks: FC = () => {
                     </a>
                 </li>
             </ul>
-        </>
+        </div>
     );
 }
 

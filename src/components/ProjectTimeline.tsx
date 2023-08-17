@@ -137,7 +137,7 @@ const data = [
     }
 ]
 
-const ProjectTimelineItem = (props: {children: String, lastElement?: boolean}) => {
+const ProjectTimelineItem = (props: {children: string, lastElement?: boolean}) => {
     return (
         <TimelineItem>
             <TimelineSeparator>
@@ -174,9 +174,9 @@ const AlternateTimeline = () => {
         //     <ProjectTimelineItem lastElement={true}>repeat</ProjectTimelineItem>
         //
         // </Timeline>
-        <div style={{ width: "80%", height: "80vh", alignSelf: "center" }}>
+        <div style={{ width: "80%", alignSelf: "center" }}>
             <Chrono items={data}
-                    mode="VERTICAL_ALTERNATING"
+                    mode="VERTICAL"
                     slideShow
             />
         </div>

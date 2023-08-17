@@ -10,8 +10,8 @@ const GoToTop: FC = () => {
         <div className={"scrollToTopButton"}>
             {!topReached &&
                 <Tooltip title={"Scroll to Top"}>
-                    <IconButton aria-label={'scroll to top'} size={"large"}>
-                        <ArrowCircleUpIcon fontSize={"inherit"}/>
+                    <IconButton aria-label={'scroll to top'}>
+                        <ArrowCircleUpIcon fontSize={"inherit"} style={{zoom: 2.5}}/>
                     </IconButton>
                 </Tooltip>
             }
