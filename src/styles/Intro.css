@@ -11,6 +11,26 @@
     color: white;
 }
 
-.introTitle h1 {
+.introTitle {
     font-size: 4rem;
+}
+
+.introTitleHello {
+
+}
+
+.introTitleMyName {
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 1px;
+    /*transition: width 1s;*/
+    animation:myNameAnimate 1s ease-out 1s forwards;
+}
+/*.introTitleMyName:hover {*/
+/*    width: 350px;*/
+/*}*/
+
+@keyframes myNameAnimate {
+    from {width: 0}
+    to {width: 340px}
 }

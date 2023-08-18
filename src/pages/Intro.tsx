@@ -5,7 +5,8 @@ const Intro = () => {
     return (
         <div className={"introContainer"}>
             <div className={"introTitle"}>
-                <h1>Hello, I'm Lakshay</h1>
+                <span className={"introTitleHello"}>Hello,</span>
+                <span className={"introTitleMyName"}>I'm Lakshay</span>
             </div>
         </div>
     )
