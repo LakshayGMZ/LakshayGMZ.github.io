@@ -1,10 +1,9 @@
 .toolEntityListContainer {
-    display: flex;
-    flex-direction: row;
-    font-size: ;
+    font-size: 1rem;
 }
 
 .toolEntityContainer {
+    display: inline-block;
     background-color: darkgrey;
     border-radius: 4px;
     width: 100px;
@@ -14,7 +13,7 @@
 
 .toolIconContainer {
     display: flex;
-    font-size: xxx-large;
+    /*font-size: xxx-large;*/
     background-color: lightgray;
     justify-content: center;
 }
@@ -24,4 +23,14 @@
 }
 
 .toolLabelContainer .icon {
+}
+
+.progressBarContainer {
+    width: 12rem;
+    align-items: center;
+    margin: 1rem 5px;
+}
+
+.progressBarLabel {
+    margin: 5px auto auto 10px;
 }

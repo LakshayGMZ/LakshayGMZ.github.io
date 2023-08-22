@@ -5,11 +5,13 @@ import RootPage from "./Root.tsx";
 import AlternateTimeline from "../components/ProjectTimeline.tsx";
 import Intro from "./Intro.tsx";
 import SocialLinks from "../components/SocialLinks.tsx";
+import Widgets from "../components/Widgets.tsx";
 
 const HomePage: FC = () => {
 
     return (
         <div>
+            {/*<Widgets />*/}
             <Intro />
             <RootPage>
                 <Section label={"About me"} id={'about'} >
